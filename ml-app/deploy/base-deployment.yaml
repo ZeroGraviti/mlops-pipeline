@@ -20,7 +20,7 @@ spec:
     - spec:
         containers:
         - name: app 
-          image: seldon-app:60 
+          image: seldon-app:1.0 
           imagePullPolicy: Never
     graph:
       name: app
